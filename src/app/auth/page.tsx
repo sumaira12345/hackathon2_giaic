@@ -3,8 +3,8 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="max-w-[1440px] mx-auto h-auto xs:h-[781px] mb-[140px] mt-[60px] flex flex-col xs:flex-row items-center justify-center bg-cover" style={{ backgroundImage: 'url(/images/bgimage.jpg)' }}>
-      <div className="flex flex-col my-auto w-full xs:w-[371px] h-auto xs:h-[530px] gap-6 xs:gap-12 p-4 xs:p-0">
+    <div className="max-w-[1440px] mx-auto h-auto xs:h-[781px] mb-[140px] mt-[60px] flex flex-col xs:flex-row items-center justify-center bg-cover" style={{ backgroundImage: 'url(/images/loginpagebg.jpg)' }}>
+      <div className="flex flex-col my-auto w-full xs:w-[440px] h-auto xs:h-[600px] gap-6 xs:gap-12 p-4 xs:p-0  md:border-[1px] md:border-white md:p-10 md:rounded-2xl ">
         {/* Heading Section */}
         <div className="flex flex-col gap-4 xs:gap-6 text-white text-center xs:text-left">
           <h1 className="font-Inter text-[28px] xs:text-[36px] font-medium">Create an account</h1>
@@ -59,10 +59,6 @@ const page = () => {
                   Sign up with Google
                 </div>
               </button>
-              <div className="gap-2 xs:gap-4 self-center text-[#F0F0F0] hidden xs:flex">
-                <p className="text-[14px] xs:text-[16px]">Already have an account?</p>
-                <p className="underline underline-offset-2 xs:underline-offset-[6px] text-[14px] xs:text-[16px]">Log in</p>
-              </div>
             </div>
           </div>
         </div>
