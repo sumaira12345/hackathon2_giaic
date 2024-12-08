@@ -9,7 +9,7 @@ import Providers from "./providers";
 
 export const metadata: Metadata = {
   title: "SHOP.CO | Future Rafay",
-  description: "Create By Sakeena Majeed",
+  description: "SHOP.CO - Discover stylish clothing from 200+ international brands. Explore high-quality products with a modern, responsive design for a seamless shopping experience. Shop your style today!",
 };
 
 export const viewport: Viewport = {
