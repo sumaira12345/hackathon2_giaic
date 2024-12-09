@@ -13,7 +13,7 @@ const socialsData: SocialNetworks[] = [
   {
     id: 1,
     icon: <GrLinkedinOption />,
-    url: "https://www.linkedin.com/in/rafay-nadeem-14a2632bb/",
+    url: "linkedin.com/in/sumaira-malik-91630b25a",
   },
 ];
 
@@ -91,14 +91,14 @@ const Footer = () => {
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
                 © Made with <span className="text-red-500">&#9829;</span> by{" "}
               <Link
-                href="https://my-portfolio-animated-abdul-rafays-projects-87eac4f7.vercel.app/"
+                href=""
                 target="_blank"
                 className="text-black font-medium hover:scale-110 underline underline-offset-4 animate-pulse"
               >
-                 Abdul Rafay
+                 Sumaira  Amjad
               </Link>
               {", "}
-              Designed by{" Abdul Rafay"}
+              Designed by{" Sumaira Amjad"}
              
             </p>
             <div className="flex items-center">
